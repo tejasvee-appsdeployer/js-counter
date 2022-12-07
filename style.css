@@ -1,3 +1,8 @@
+body {
+	background-image: url("https://img.freepik.com/premium-photo/2022-calendar-page-blue-background-business-planning-appointment-meeting-concept_293060-5815.jpg?w=1060");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .headings {
 	text-align: center;
 }
