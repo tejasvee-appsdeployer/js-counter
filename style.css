@@ -1,5 +1,12 @@
-body {
-	background-color: black;
+.headings {
+	text-align: center;
+}
+.container {
+	display: flex;
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+	gap: 20px;
 }
 .card {
 	width: 10vw;
@@ -7,14 +14,19 @@ body {
 	text-align: center;
 	font-size: 30px;
 	border: 1px solid black;
+	transition: height 0.5s ease-in-out;
 	transition: width 0.5s ease-in-out;
+	background: #f2f2f2;
 	overflow: hidden;
-	background-color: whitesmoke;
+	border-radius: 20px;
+	cursor: pointer;
+	box-shadow: 0 0 20px 8px #d0d0d0;
+	background: radial-gradient(#1fe4f5, #3fbafe);
 }
 
 .card-click {
 	font-size: 60px;
 	visibility: visible;
 	width: 30vw;
-	height: 10vh;
+	height: 20vh;
 }

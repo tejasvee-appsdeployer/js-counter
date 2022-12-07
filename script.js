@@ -21,6 +21,7 @@ function clickEvent() {
 			this.innerHTML =
 				days + "d " + hours + "h " + mintues + "m " + seconds + "s ";
 
+			console.log(this.innerHTML);
 			if (distance < 0) {
 				clearInterval(x);
 				this.innerHTML = "EXPIRED";
